@@ -29,7 +29,7 @@ class Header extends Component {
                         to={this.props.auth ? '/surveys' : '/'} 
                         className="left brand-logo"
                     >
-                        SimpleJira
+                        UdacitySurvey
                     </Link>
                     <ul className="right">
                         {this.renderContent()}
